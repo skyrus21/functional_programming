@@ -1,0 +1,6 @@
+(defun DEVLEV1 (L)
+  (cond
+    ((null (cdr L)) L)
+    (t (list (car L) (DEVLEV1 (cdr L))))))
+
+(print (DEVLEV1 '(a b c)))

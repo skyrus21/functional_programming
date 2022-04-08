@@ -1,0 +1,12 @@
+(defun func1_1(x)
+(log(+ (* x x x) (/ (expt (cos x) 2)(+ (expt (/ (sin x)(cos x)) 3) 1)))))
+func1_1
+(func1_1 5)
+4.82829663172086
+
+
+(defun func1_2(x)
+(* (expt (+ (expt x 3)(* 3 (expt x 2))(* 4 x) 5) 2)(+ (* x x)(* 7 x) 1)))
+func1_2
+(func1_2 4)
+796005

@@ -1,0 +1,2 @@
+(defun f (x,y)( +(expt (* 4 x) 10) (-(expt (* 9 y) 20) (+2)))
+(print (f  3,2))

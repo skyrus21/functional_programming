@@ -1,0 +1,6 @@
+(defun REVL (L)
+  (cond
+    ((null (cdr L)) L)
+    (t (list (REVL (cdr L)) (car L)))))
+
+(print (REVL '(a b c)))

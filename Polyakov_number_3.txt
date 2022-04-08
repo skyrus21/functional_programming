@@ -1,0 +1,8 @@
+(defun func3_f1(n)
+(cond
+((= n 1) 2)
+((= n 2) 4)
+(t (+ (* 5 (* (func3_f1(- n 1))(func3_f1(- n 1))))(* 4 (func3_f1(- n 2)))))))
+func3_f1
+(func3_f1 3)
+88
